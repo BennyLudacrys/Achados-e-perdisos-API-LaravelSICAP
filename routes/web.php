@@ -12,7 +12,7 @@
 */
 //rota da página inicial
 Route::get('/', function () {
-    return view('Bem vindo');
+    return view('welcome');
 });
 //rotas de autenticação
 Auth::routes();
